@@ -5,6 +5,7 @@
 
 body{
     background-color: #F9FAFB;
+    font-size: 12px;
 }
 
 .logo-principal{
@@ -22,8 +23,25 @@ body{
     align-items: center;
     flex-direction: row;
     border-bottom: 0.5px rgb(231, 231, 231) solid;
+    font-size: 1.2rem;
+}
+
+.a-menu-desktop{
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.li-menu-desktop{
+    list-style: none;
+    
 }
 
 .ul-menu-desktop{
     margin-right: 50px;
+}
+
+.titulo-principal{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
 }
